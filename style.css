@@ -1,0 +1,68 @@
+body{
+	background-color: #a9d1da;
+}
+
+.keys-type {
+	font-family: 'Arvo', serif;
+}
+
+.heading{
+	font-family: 'Permanent Marker', cursive;
+	text-align: center;
+}
+
+.main{
+	margin: 0px;
+	width: 40%;
+	text-align: center;
+	text-align: center;
+}
+
+
+img{
+	height: 50px;
+}
+
+.card{
+	text-align: center;
+}
+
+.box{
+	padding:35px;
+	border:none;
+}
+
+/*button {
+	background-color: #dddacc;
+	border:1px solid ;
+	border-radius: 4px;
+-webkit-box-shadow: -1px 3px 3px 4px rgba(221,218,204,1);
+-moz-box-shadow: -1px 3px 3px 4px rgba(221,218,204,1);
+box-shadow: -1px 3px 3px 4px rgba(221,218,204,1);
+}*/
+
+.button{
+	background-image: url(images/keyboard-key.png);
+	background-size: contain;
+	background-repeat: no-repeat;
+	height: 40px;
+	width: 40px;
+	padding-top: 6px;
+}
+
+.space{
+	background-image: url(images/space-bar-key.png);
+	background-size: contain;
+	background-repeat: no-repeat;
+	height: 40px;
+	width: 80px;
+	padding-top: 6px;
+
+}
+
+.keys{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
